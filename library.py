@@ -1,18 +1,18 @@
 books = {
-    "A001": {"title": "Naruto Vol.1", "author": "Masashi Kishimoto", "quantity": 5},
-    "A002": {"title": "One Piece Vol.1", "author": "Eiichiro Oda", "quantity": 4},
-    "A003": {"title": "Attack on Titan Vol.1", "author": "Hajime Isayama", "quantity": 6},
-    "A004": {"title": "Demon Slayer Vol.1", "author": "Koyoharu Gotouge", "quantity": 3},
-    "A005": {"title": "My Hero Academia Vol.1", "author": "Kohei Horikoshi", "quantity": 4},
-    "A006": {"title": "Death Note Vol.1", "author": "Tsugumi Ohba", "quantity": 3},
-    "A007": {"title": "Fullmetal Alchemist Vol.1", "author": "Hiromu Arakawa", "quantity": 2},
-    "A008": {"title": "Jujutsu Kaisen Vol.1", "author": "Gege Akutami", "quantity": 5},
-    "A009": {"title": "Tokyo Ghoul Vol.1", "author": "Sui Ishida", "quantity": 3},
-    "A010": {"title": "Hunter x Hunter Vol.1", "author": "Yoshihiro Togashi", "quantity": 2}
+    "A001": {"title": "Ikigai", "author": "Hector Gargia And Frances Miralles", "quantity": 9},
+    "A002": {"title": "The Art Of Being Alone", "author": "Renuka Gavrani", "quantity": 6},
+    "A003": {"title": "Man's Search For Meaning", "author": "Victor E. Frankl", "quantity": 4},
+    "A004": {"title": "The Art Of Not Overthink", "author": "Shaurya Kapoor", "quantity": 5},
+    "A005": {"title": "Jaun Elia", "author": "Muntazir Firozabadi", "quantity": 3},
+    "A006": {"title": "Can We Be Strangers Again", "author": "Shrijeet Shandilya", "quantity": 7},
+    "A007": {"title": "In Sheep's Clothing", "author": "George K. Simon", "quantity": 8},
+    "A008": {"title": "The Subtle Art Of Not Giving Fuck", "author": "Mark Mansion", "quantity": 2},
+    "A009": {"title": "Everything Is Fucked", "author": "Mark Mansion", "quantity": 5},
+    "A010": {"title": "Think Again", "author": "Adam Grant", "quantity": 6}
 }
 
 issued_books = {}
-FINE_PER_WEEK = 10
+FINE_PER_WEEK = 14
 
 def add_book():
     print()
@@ -28,7 +28,7 @@ def add_book():
 
 def show_books():
     print()
-    print("=== AVAILABLE BOOKS ===")
+    print("*** AVAILABLE BOOKS ***")
     print(f"{'ID':<8}{'Title':<25}{'Author':<20}{'Qty':<6}")
     print("-" * 60)
     for book_id, info in books.items():
