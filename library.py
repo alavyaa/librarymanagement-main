@@ -124,17 +124,34 @@ def check_fine():
 def main():
     while True:
         print()
-        print("=== ANIME LIBRARY SYSTEM ===")
-        print("1. Add Book  2. Show Books  3. Search  4. Issue  5. Return  6. Issued  7. Fine  8. Exit")
+        print("*** LIBRARY SYSTEM ***")
+        print("1. Add Book ")
+        print("2. Show Books ")
+        print("3. Search ")
+        print("4. Issue ")
+        print("5. Return ")
+        print("6. Issued ")
+        print("7. Fine ")
+        print("8. Exit")
         ch = input("Choice: ")
-        if ch == "1": add_book()
-        elif ch == "2": show_books()
-        elif ch == "3": search_book()
-        elif ch == "4": issue_book()
-        elif ch == "5": return_book()
-        elif ch == "6": show_issued()
-        elif ch == "7": check_fine()
-        elif ch == "8": print("Bye!"); break
-        else: print("Invalid!")
+        if ch == "1": 
+            add_book()
+        elif ch == "2": 
+            show_books()
+        elif ch == "3": 
+            search_book()
+        elif ch == "4": 
+            issue_book()
+        elif ch == "5": 
+            return_book()
+        elif ch == "6": 
+            show_issued()
+        elif ch == "7": 
+            check_fine()
+        elif ch == "8": 
+            print("ThankYou For Using Our Service!")
+            break
+        else: 
+            print("Invalid!")
 
 main()
